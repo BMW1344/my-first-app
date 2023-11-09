@@ -112,3 +112,18 @@ body {
     cursor: pointer;
     outline: none;
 }
+
+.location-btn {
+    background: linear-gradient(45deg, #36d1dc, #5b86e5 );
+    align-self: center;
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
