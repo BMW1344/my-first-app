@@ -15,7 +15,6 @@ body {
     font-family: 'Montserrat', sans-serif; 
 }
 .weather_card {
-    border: 2px solid;
     width: 940px;
     height: 623px;
     display: flex;
@@ -68,7 +67,6 @@ body {
 } 
    
 .temperature span {
-    position: absolute; 
     font-size: 30px;
     bottom: -18px;
     font-weight: bold;
