@@ -16,12 +16,13 @@ body {
 }
 .weather_card {
     border: 2px solid;
-    width: 944px;
+    width: 940px;
     height: 623px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: left;
-    background-color: black; 
+    background-color: #222831; 
     color: white;
     border-radius: 30px;
 }
