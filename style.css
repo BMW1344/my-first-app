@@ -106,12 +106,17 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
-    border-radius: transparent;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
     outline: none;
+    line-height: 2.7rem;
+    font-size: 20px; 
+}
+
+.forecasts h1 {
+    font-size: 20px; 
 }
 
 .location-btn {
