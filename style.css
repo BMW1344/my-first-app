@@ -45,8 +45,14 @@ body {
     font-size: 40px; 
    }  
 .date {
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 3rem;
    } 
+
+.loca {
+    font-size: 20px;
+    line-height: 3.5rem;
+}
    
 .location {
     font-size: 18px;
@@ -54,17 +60,11 @@ body {
    
 .temperature {
     position: relative;
+    top: 195px;
+    left: 5px;
+    line-height: 3.5rem;
+    font-size: 25px;
    } 
-   
-.temperature i {
-    font-size: 67px;
-    margin-top: 7rem;
-    margin-bottom: 15px;
-}
-   
-.temeperature h1 {
-    font-size: 67px;
-} 
    
 .temperature span {
     font-size: 30px;
@@ -127,3 +127,4 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 }
+
