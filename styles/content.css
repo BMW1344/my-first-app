@@ -1,0 +1,27 @@
+.content__day {
+    font-size: 40px; 
+   }  
+
+.content__date {
+    font-size: 22px;
+    line-height: 3rem;
+   } 
+
+.content__location {
+    font-size: 20px;
+    line-height: 3.5rem;
+}
+.content__temperature {
+    position: relative;
+    top: 195px;
+    left: 5px;
+    line-height: 3.5rem;
+    font-size: 25px;
+   } 
+   
+.content__temperature span {
+    font-size: 30px;
+    bottom: -18px;
+    font-weight: bold;
+   }
+   
