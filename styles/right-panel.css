@@ -40,14 +40,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none; /*удаляем границы которые по умолчанию у тега button*/
-    cursor: pointer; /*изменяется курсор мыши*/
+    border: none; 
+    cursor: pointer; 
 }
-.right-panel__button:hover { /*модификация hover меняет цвет элемента на которую мы наведем мышкой */
-    background: linear-gradient(45deg, #6bd5dc, #5b86e5 ); /*цвет на который меняется*/
+.right-panel__button:hover { 
+    background: linear-gradient(45deg, #6bd5dc, #5b86e5 ); /
 }
 
-@media (max-width:700px) {  /*аддаптивность*/
+@media (max-width:700px) {  
     .right-panel__button{
         margin-top: 40px;
     }

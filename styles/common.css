@@ -12,8 +12,8 @@ body {
     background-color: #343D4B;
     font-family: 'Montserrat', sans-serif; 
 }
-@media (max-width:700px) { /*аддаптивность, при увеличении самой страницы нажатием ctrl + колесико прокрута будет меняться расположение плиток, при достижении 700px приименяется даный параметр*/
-    body{ /*тут например меняется задний цвет плашки*/
+@media (max-width:700px) { 
+    body{ 
         background-color: #222831;
         margin: auto;
     }

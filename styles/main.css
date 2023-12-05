@@ -10,7 +10,7 @@
     border-radius: 30px;
 }
 
- @media (max-width:700px) { /*аддаптивность*/
+ @media (max-width:700px) { 
     .main{
         flex-direction: column;
         background-color: #222831;
@@ -37,7 +37,7 @@
     justify-content: space-around;
    } 
 
-@media (max-width:700px) {  /*аддаптивность*/
+@media (max-width:700px) {  
     .main__right-panel{
         padding-top: 70px;
         padding-bottom: 50px;
