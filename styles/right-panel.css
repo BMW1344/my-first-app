@@ -1,0 +1,60 @@
+.right-panel__forecasts {
+    background: #272E37;
+    box-shadow: 1px 2px 4px 0px #222831;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+   }
+
+.right-panel__forecasts button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    line-height: 2.7rem;
+    font-size: 20px; 
+}
+
+.right-panel__forecasts h1 {
+    font-size: 20px; 
+}
+
+.right-panel__button {
+    background: linear-gradient(45deg, #36d1dc, #5b86e5 );
+    align-self: center;
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; /*удаляем границы которые по умолчанию у тега button*/
+    cursor: pointer; /*изменяется курсор мыши*/
+}
+.right-panel__button:hover { /*модификация hover меняет цвет элемента на которую мы наведем мышкой */
+    background: linear-gradient(45deg, #6bd5dc, #5b86e5 ); /*цвет на который меняется*/
+}
+
+@media (max-width:700px) {  /*аддаптивность*/
+    .right-panel__button{
+        margin-top: 40px;
+    }
+} 
+
+.right-panel__notation {
+    line-height: 3.5rem;
+    position: relative;
+    bottom: 20px;
+}
