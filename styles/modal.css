@@ -50,4 +50,12 @@
 .modal.open .modal__box{
     transform: scale(1);
 }
+.modal-header{
+    font-size: 30px;
+}
+.modal__select{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
 

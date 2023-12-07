@@ -44,7 +44,7 @@
     cursor: pointer; 
 }
 .right-panel__button:hover { 
-    background: linear-gradient(45deg, #6bd5dc, #5b86e5 ); /
+    background: linear-gradient(45deg, #6bd5dc, #5b86e5 ); 
 }
 
 @media (max-width:700px) {  
